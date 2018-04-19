@@ -592,7 +592,7 @@
                 },
                 "NetworkInterfaces": [
                     {
-                        "AssociatePublicIpAddress": "true",
+                        "AssociatePublicIpAddress": "false",
                         "DeviceIndex": "0",
                         "GroupSet": [
                             {
@@ -600,7 +600,7 @@
                             }
                         ],
                         "SubnetId": {
-                            "Ref": "SpinnakerPublicSubnet"
+                            "Ref": "SpinnakerPrivateSubnet"
                         }
                     }
                 ],
